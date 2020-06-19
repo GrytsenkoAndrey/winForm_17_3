@@ -16,5 +16,10 @@ namespace winForm_17_3
         {
             InitializeComponent();
         }
+
+        private void btnPress_Click(object sender, EventArgs e)
+        {
+            lblOutput.Text = "Добро пожаловать!!";
+        }
     }
 }
